@@ -1,9 +1,12 @@
-import React from "react";
+import { Link, useRouteError } from "react-router-dom";
 
 const Error = () => {
+  const error = useRouteError();
+  console.log(error);
   return (
     <div>
       <h3>Error Page</h3>
+      <Link to="/">back home</Link>
     </div>
   );
 };

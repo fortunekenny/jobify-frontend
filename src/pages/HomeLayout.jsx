@@ -1,10 +1,10 @@
-import React from "react";
+import { Outlet } from "react-router-dom";
 
 const HomeLayout = () => {
   return (
-    <div>
-      <h3>HomeLayout Page</h3>
-    </div>
+    <>
+      <Outlet />
+    </>
   );
 };
 
