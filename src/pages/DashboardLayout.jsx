@@ -1,9 +1,9 @@
-import React from "react";
+import { Outlet } from "react-router-dom";
 
 const DashboardLayout = () => {
   return (
     <div>
-      <h3>DashboardLayout page</h3>
+      <Outlet />
     </div>
   );
 };
