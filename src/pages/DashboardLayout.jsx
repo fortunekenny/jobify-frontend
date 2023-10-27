@@ -27,7 +27,7 @@ const DashboardLayout = () => {
     <DashboardContext.Provider
       value={{
         user,
-        SharedWorker,
+        showSidebar,
         isDarkTheme,
         toggleDarkTheme,
         toggleSidebar,
